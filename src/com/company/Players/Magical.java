@@ -14,7 +14,7 @@ public class Magical extends Hero {
 
         for (Hero hero : heroes) {
             if (hero.getHealth() > 0) {
-                hero.setDamage(hero.getHealth() + 5);
+                hero.setDamage(hero.getDamage() + 5);
             }
         }
 
